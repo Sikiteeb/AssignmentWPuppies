@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>AssignmentP 🐾</title>
+    
+    <script language ="javascript">
+    function SelectRedirect(){ //this function will redirect onto a page based on a value chosen from dropdown list
+    
+    
+       switch (document.getElementById('dogs').value) {
+          
+           case  "Labradoodle":
+            window.location='../AssignmentP/Labradoodle.html';
+           break;
+           case "Chow Chow":
+            window.location='../AssignmentP/ChowChow.html';
+           break;
+           case  "Keeshond":
+              window.location='../AssignmentP/Keeshond.html';
+           break;
+           case  "Nope":
+              window.location='../AssignmentP/Cats.html';
+           break;
+           
+       }
+       };
+      </script>
+  
+     <style media="screen">
+      a:link{ 
+          color: #502A15;
+      }
+      a{
+       
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        color: white;
+        background-color: #D9AE8F;
+        padding: 10px;
+        font-size: large;
+        margin: 15px;
+        max-width: 150px;
+        min-width: 150px;
+        border-radius: 100px;
+        -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+      }
+      a:active{
+        
+        background-color: #502A15;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+      }
+      a:hover{
+        color:#F6DECB ;
+        background-color: #A8774A;
+      }
+    </style>
+</head>
+
+<body style= "background-color: #F7E9E0;">
+    <h1 style = "color:#645B84;"> Fluffiest dogs everywhere!</h1>
+
+    
+  <img src="https://www.lovethispic.com/uploaded_images/75862-Fluffy-Puppy.jpg?2" alt="White fluffy puppy" width="200" height= "200">
+                                                                                                                               
+                                                                                                                              
+    <br>
+    <br>
+    <table>
+        
+    <tr>
+    <th>Australia </th><br>
+      <th>America </th>
+        <th>Asia </th> 
+          <th>Europe </th>
+          </tr> 
+      <tr>
+        
+     <td>Sheperd Dog</td>
+     <td>Standard Poodle</td>
+     <td>Chow Chow </td>
+      <td>Samoyed </td>
+    </tr>
+   
+    <tr>
+     <td>Terrier </td>
+     <td>Old English Sheepdog </td>
+     <td>Shih Tzu </td>
+      <td> Great Pyrenees</td>
+     </tr>
+    <tr>
+    <td>Labradoodle </td> 
+     <td>Keeshond </td>
+      <td> Shiba Inu</td>
+       <td>Eurasier </td>
+    </tr>
+  
+    </table>
+                             
+    <h2 style = "color: #645B84">The Story</h2>
+    <p>Our affinity for cute is an evolved biological response.
+    Think about it: If we didn’t get all gooey over cute things,
+    we wouldn’t take care of 
+    them and protect them, we would be a terrible shell of a fake human being.
+    We respond to cute cues because it’s in our very nature to nurture  
+    our beloved, adorable dog or cat. </p>
+    
+    <ul>
+    <li>Sniff</li>
+    <li>Snaff</li>
+    <li>Snoff</li>
+    </ul>
+    <br>
+    
+    <a href="https://www.google.com/search?client=safari&rls=en&sxsrf=ALeKk001JLf9mA1kENhde1AQSZPymzWVwQ:1605958215027&ei=R_q4X5iSAeLErgTooLaACQ&q=cookies&oq=cookies&gs_lcp=CgZwc3ktYWIQAzIHCC4QQxCTAjIECC4QQzIICC4QxwEQrwEyAggAMgIIADICCAAyAggAMgQILhAKMgUIABDJAzICCAA6BAgjECc6CAgAEMkDEJECOgUIABCRAjoICC4QxwEQowI6BwgAEMkDEEM6BAgAEEM6CgguEMkDEEMQkwI6CgguEMcBEK8BEEM6BAgAEAo6CgguEMcBEK8BEAo6BwgAEMkDEAo6AgguUOwQWNk2YJQ4aARwAXgAgAF-iAHGB5IBAzguM5gBAKABAaoBB2d3cy13aXrAAQE&sclient=psy-ab&ved=0ahUKEwjY0bjHxJPtAhVioosKHWiQDZAQ4dUDCAw&uact=5">Cookies! </a>
+    
+    <br>
+    
+    
+    <h2 style = "color:#645B84;">Even more cuteness</h2>
+    <img src= "https://media1.tenor.com/images/58d743ea0f965291bc11cc6bfe565b73/tenor.gif?itemid=7750261" alt="Fluffy Dog Airswimming" width="200" height="200">
+
+<br>
+<br>
+<h2 style = "color:#645B84;"> Puppy petting form</h2>
+    
+<form action = "hey.php" method ="POST">
+    <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+    <br>
+    <br>
+    <input style= "background-color: #AAA9F6;" 
+           "color: #282848" type ="submit">
+ 
+  <br>
+  <br>
+    
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  
+      
+    <br>
+        
+   <input type="checkbox" id="doggies" name="pets" value="Dog">
+   <label for="pets"> I like dogs</label><br>
+ 
+    <input type="checkbox" id="cats" name="pets" value="NoDog">
+   <label for="pets"> I like cats</label>
+    <br>
+    
+    
+
+<h3 style="color: #645B84"> Choose a dog to pet </h3>
+  
+ 
+<select id="dogs" name="dogs" onChange="SelectRedirect();">
+  <option value="Labradoodle">Labradoodle</option>
+  <option value="Chow Chow">Chow Chow</option>
+  <option value="Keeshond">Keeshond</option>
+  <option value="Nope">Nope</option>
+</select>
+    <input style= "background-color: #AAA9F6;" 
+           "color: #282848" type ="submit">
+  </form>
+   
+    <br>
+  
+    </body>
+</html>
+
+
+
